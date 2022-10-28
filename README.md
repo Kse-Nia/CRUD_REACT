@@ -1,6 +1,6 @@
-# Bienvenue sur Groupomania !
+# Projet CRUD
 
-Projet CRUD - création d'un réseau social pour entreprise.
+Création d'un réseau social pour entreprise.
 
 *  React, Material UI pour la partie Frontend
 *  Sequelize / MySQL, Node.JS, Express pour le Backend
