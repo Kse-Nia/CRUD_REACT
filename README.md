@@ -30,5 +30,6 @@ TOKEN_SECRET="ggfgffgfgjf2346"
 ````
 Créer une database "CRUD".
 
+Pour avoir un Profil "Administrateur", créer un nouveau utilisateur, puis dans la DB de la cellule "isAdmin", changer la valeur en "true".
 ### 
 
