@@ -1,0 +1,120 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.root {
+width: 100vw;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.App {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  color: #2a2a2a;
+  background-color: #eff0f3;
+  min-height: 100%;
+}
+
+/* .container {
+    &_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+.form_register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.formContainer {
+  /*  width: 400px; */
+  margin: 35px auto 0;
+  /*  padding: 20px 0; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+}
+
+.formContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.formContainer ul li {
+  background: #eff0f3;
+  border: solid 1 px #283593;
+  text-align: center;
+  width: 50%;
+  min-height: 40px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.formContainer ul li:hover {
+  background: #4753b2;
+}
+
+.formContainer .active-btn {
+  background: #3542a7;
+}
+
+.formContainer form {
+  width: 400px;
+  margin: 10px auto 0;
+  padding: 20px;
+}
+
+.cardheader {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post__content {
+  text-align: center;
+}
+
+ .post_picture {
+  width:100%;
+height:100%;
+ object-fit:cover;
+} 
